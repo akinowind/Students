@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<!-- name对应的是文件的路径,table对应数据库表名 -->
+	<class name="model.Teachers" table="Teachers">
+		<!-- id值 ，name对应属性，type表示数据类型-->
+ 		<id name="tid" column="id" type="java.lang.String" length="8">
+			<generator class="assigned"/>    <!-- 手工赋值类型 -->
+		</id>
+		<!-- 名字-->
+		<property name="tname" type="java.lang.String" />
+		<!-- 密码 -->
+		<property name="gender" type="java.lang.String"/>
+		<property name="birth" type="date"/>
+		<property name="address" type="java.lang.String"/>
+		
+
+	</class>
+</hibernate-mapping>
+

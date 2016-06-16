@@ -1,0 +1,118 @@
+@charset "utf-8";
+body{
+
+}
+
+a:hover{
+	color:#fef2f2;
+}
+.head{
+	height:80px;
+	padding:10px 0;
+}
+.logo{
+	width: 1200px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.logo h1{
+	height: 44px;
+	display: block;
+}
+h1{
+	top:-51px;
+}
+.content{
+	width: 100%;
+	position: relative;
+	padding: 20px 0;
+}
+.bg{
+	z-index: 9;
+	position: absolute;
+	background-image:url(../img/keji.jpg);
+	background-position: center center;
+	height:600px;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.content-layout{
+	z-index:999;
+	position: relative;
+	width: 1200px;
+	margin:0 auto;
+	height: 600px;
+}
+.login-box-wrap{
+	position: absolute;
+	top:180px;
+	right:60px;
+	width: 350px;
+}
+.login-box{
+	background-color: #fff;
+	width: 300px;
+	padding: 25px 25px 40px;
+	color:#6c6c6c;
+	position: relative;
+}
+.login-tittle{
+	height: 18px;
+	line-height: 18px;
+	font-size: 16px;
+	color:#3c3c3c;
+	font-weight: 700;
+}
+.login-error{
+	background-color: #fef2f2;
+	border:1px solid #ffb4a8;
+	
+	margin-top: 10px;
+}
+.user{
+	margin-top:30px;
+}
+.username{
+	margin-top: 20px;
+	position: relative;
+}
+.static-font{
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 24px;
+	padding: 3px 0;
+	color:#fff;
+	background: #ddd;
+	text-align: center;
+	position: absolute;
+}
+.icon-user,.icon-lock{
+	font-size: 22px;
+}
+.login-user{
+	width: 240px;
+	font-size: 14px;
+	line-height: 25px;
+	height: 30px;
+	padding: 8px 8px 8px 50px;
+	border:1px solid #ddd;
+}
+.login-link{
+	margin-top: 29px;
+	overflow: hidden;
+	line-height: 14px;
+}
+.register{
+	float: right;
+}
+.login-link a{
+	color: #6c6c6c;
+	float: right;
+	margin-right: 8px;
+}
+.btn,.btn-info{
+	width: 250px;
+	height: 30px;
+	margin-top:5px;
+}

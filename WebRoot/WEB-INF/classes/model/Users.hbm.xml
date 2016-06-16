@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<!-- name对应的是文件的路径,table对应数据库表名 -->
+	<class name="model.Users" table="Users">
+		<!-- id值 ，name对应属性，type表示数据类型-->
+ 		<id name="uid" column="id" type="int">
+			<generator class="native"/>    <!-- 自动增长类型 -->
+		</id>
+		<!-- 名字-->
+		<property name="uname" type="java.lang.String">
+			
+		</property>
+		<!-- 密码 -->
+		<property name="upasswd" type="java.lang.String">
+			
+		</property>
+		
+	</class>
+</hibernate-mapping>
+
